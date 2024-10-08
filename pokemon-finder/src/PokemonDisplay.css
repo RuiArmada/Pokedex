@@ -1,0 +1,41 @@
+/* src/PokemonDisplay.css */
+.pokemon-display {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #580688;
+    border-radius: 10px;
+    background-color: #433e4b;
+    text-align: center;
+  }
+  
+  .pokemon-name {
+    font-size: 2.5em;
+    color: #2980b9;
+  }
+  
+  .pokemon-sprite {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .pokemon-info {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  
+  .evolutions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .evolution {
+    background-color: #f9c2ff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+  }
+  
