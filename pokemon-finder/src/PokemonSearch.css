@@ -1,33 +1,62 @@
-/* src/PokemonSearch.css */
 .search-form {
-    display: flex;
-    font-family: 'Fira Code', monospace;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-  
-  .search-input {
-    padding: 10px;
-    width: 60%;
-    font-family: 'Fira Code', monospace;
-    border: 1px solid #bdc3c7;
-    border-radius: 5px;
-    margin-right: 10px;
-  }
-  
-  .search-button {
-    padding: 10px 20px;
-    font-family: 'Fira Code', monospace;
-    background-color: #e67e22;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .search-button:hover {
-    background-color: #d35400;
-    font-family: 'Fira Code', monospace;
-  }
-  
+  display: flex;
+  font-family: 'Fira Code', monospace;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.search-input {
+  padding: 10px;
+  width: 60%;
+  font-family: 'Fira Code', monospace;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #0d1117;
+  color: #ffffff;
+}
+
+.search-button {
+  padding: 10px 20px;
+  font-family: 'Fira Code', monospace;
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: #d35400;
+  font-family: 'Fira Code', monospace;
+}
+
+.suggestions-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a2e;  /* Dark background to match app theme */
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  max-height: 200px;
+  overflow-y: auto;
+  position: absolute;
+  width: 600px;
+  z-index: 1000;  /* Ensure dropdown appears above other content */
+}
+
+.suggestion-item {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #2c3e50;
+  color: #ffffff;  /* White text color for visibility */
+}
+
+.suggestion-item:hover {
+  background-color: #d35400;  /* Highlight color on hover */
+}
+
+.suggestion-item:last-child {
+  border-bottom: none;
+}

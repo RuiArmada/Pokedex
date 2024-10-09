@@ -10,7 +10,7 @@ body {
 .App {
   text-align: center;
   margin: 30px auto;
-  max-width: 90%;
+  max-width: 600px;
   padding: 30px;
   border-radius: 20px;
   background: linear-gradient(to bottom right, #1a1a2e, #16213e);
