@@ -1,4 +1,3 @@
-// src/PokemonSearch.js
 import React, { useState } from 'react';
 import './PokemonSearch.css';
 
