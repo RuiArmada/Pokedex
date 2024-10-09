@@ -81,6 +81,3 @@ This is a React-based web application that allows users to search for and explor
 - **Battle Simulator**: Implement a simple battle simulator between two selected Pokémon.
 - **Pokémon Stats**: Display base stats like HP, Attack, and Defense for each Pokémon.
 
-## License
-This project is licensed under the MIT License.
-
